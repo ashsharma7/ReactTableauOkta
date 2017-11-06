@@ -16,13 +16,14 @@ export default class Navigation extends React.Component{
               <span className="icon-bar"></span>
               <span className="icon-bar"></span>
             </button>
-            <Link to="/" className="navbar-brand">OktaReact</Link>
+            <Link to="/" className="navbar-brand">Adacus Dashboard</Link>
           </div>
           <div className="navbar-collapse collapse">
             <ul className="nav navbar-nav navbar-right smooth-scroll">
               <li><Link to="/">Home</Link></li>
               <li><Link to="about">About</Link></li>
               <li><Link to="contact">Contact</Link></li>
+              <li><Link to="login">Login</Link></li>
             </ul>
           </div>
         </div>
