@@ -7,7 +7,7 @@ export default class TableauPage extends React.Component{
 	render(){
 		return (
 			<div>
-				<Tableau url='https://public.tableau.com/views/Top100TableauPublicViews-Q1Q2-2010good/Viewdetail?:embed=y&:loadOrderID=0&:display_count=no' />
+				<Tableau url='https://us-east-1.online.tableau.com/#/site/servicentrixtrial/views/AnalyzeSuperstore/Product?:iid=1' />
 			</div>
 		);
 	}

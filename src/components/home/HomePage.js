@@ -1,12 +1,16 @@
 import React, {Component} from 'react'
 import TableauReport from 'tableau-react';
 
+// http://public.tableau.com/views/RegionalSampleWorkbook/Storms"
+
 export default class HomePage extends Component{
   render(){
     return (
     <div className="container">
       <h1>Dashboard</h1>
-      <TableauReport url="http://public.tableau.com/views/RegionalSampleWorkbook/Storms" />
+      <TableauReport 
+      		url="https://us-east-1.online.tableau.com/t/servicentrixtrial/views/AnalyzeSuperstore/CommissionModel?:embed=y&:original_view=yes&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no"
+      />
     </div>
     );
   }
