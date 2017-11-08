@@ -11,6 +11,7 @@ export default class LoginPage extends React.Component{
   		baseUrl: 'https://dev-775330.oktapreview.com',
   		clientId: '0oacq161fsZ3vXL4o0h7',
   		redirectUri: 'http://localhost:3000',
+      scopes: ['openid', 'email', 'profile'],
   		authParams: {
         	responseType: 'id_token'
       	}	
