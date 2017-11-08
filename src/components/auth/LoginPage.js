@@ -8,8 +8,8 @@ export default class LoginPage extends React.Component{
   	super();
   	this.state = {user: null};
   	this.widget = new OctaSignIn({
-  		baseUrl: 'https://dev-775330.oktapreview.com',
-  		clientId: '0oacq161fsZ3vXL4o0h7',
+  		baseUrl: 'https://dev-<dev-id>.oktapreview.com',
+  		clientId: '<clientId>',
   		redirectUri: 'http://localhost:3000',
       scopes: ['openid', 'email', 'profile'],
   		authParams: {

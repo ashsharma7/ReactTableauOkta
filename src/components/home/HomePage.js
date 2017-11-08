@@ -9,7 +9,7 @@ export default class HomePage extends Component{
     <div className="container">
       <h1>Dashboard</h1>
       <TableauReport 
-      		url="https://us-east-1.online.tableau.com/t/servicentrixtrial/views/ExecutiveSalesforce/QuotaAttainment?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no"
+      		url="https://us-east-1.online.tableau.com/t/sometrial/views/ExecutiveSalesforce/QuotaAttainment?:embed=y&:showAppBanner=false&:showShareOptions=true&:display_count=no&:showVizHome=no"
       />
     </div>
     );
